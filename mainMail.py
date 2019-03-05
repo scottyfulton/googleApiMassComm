@@ -97,7 +97,7 @@ def main():
     file2Handle.close()
 
 # address to send from, authenticated from token.pickle file
-    sendAddy = "scottyandrene@gmail.com"
+    sendAddy = "FAKEMAIL@gmail.com"
 
 # read address list from file and put into list[]
 # CHANGE THIS FILE FOR ALTERNATE MAILING LIST
@@ -119,7 +119,7 @@ def main():
 
 
 ############# Below worked #######################
-    # msg = create_message('scottyandrene@gmail.com', "scottyandrene@gmail.com", "subj", "body text")
+    # msg = create_message('scottyandrene@gmail.com', "FAKEMAIL@gmail.com", "subj", "body text")
     # send_message(service,"me", msg )
 
 if __name__ == "__main__":
