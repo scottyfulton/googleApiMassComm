@@ -117,10 +117,5 @@ def main():
         creator = CreateSendEmail.create_message(sendAddy, address, subjectMit, messageBody)
         CreateSendEmail.send_message(service, "me", creator)
 
-
-############# Below worked #######################
-    # msg = create_message('scottyandrene@gmail.com', "FAKEMAIL@gmail.com", "subj", "body text")
-    # send_message(service,"me", msg )
-
 if __name__ == "__main__":
     main()
